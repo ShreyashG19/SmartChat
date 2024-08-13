@@ -1,0 +1,19 @@
+.dark-theme {
+    --tw-bg-opacity: 1;
+    --bg-color: rgb(39 39 42 / var(--tw-bg-opacity));
+    --text-color: #e2e8f0;
+}
+.light-theme {
+    --tw-bg-opacity: 1;
+    --bg-color: rgb(244 244 245 / var(--tw-bg-opacity));
+    --text-color: #000000;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header .title {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
